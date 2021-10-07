@@ -1,0 +1,19 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 75px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
