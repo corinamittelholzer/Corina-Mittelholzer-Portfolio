@@ -1,5 +1,7 @@
-body {
-  font-family: "Montserrat", sans-serif;
+:root {
+  --branding-color: #b3cac3;
+  --brandingdark-color: #618381;
+  --card-color: #faefd8;
 }
 
 h1 {
@@ -16,4 +18,41 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 25px;
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+}
+
+.btn-brandingdark {
+  background: var(--brandingdark-color);
+  color: white;
+  border-radius: 4px;
+  border: 3px solid var(--brandingdark-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 20px 20px;
+}
+
+.btn-branding {
+  background: white;
+  color: var(--brandingdark-color);
+
+  border-radius: 4px;
+  border: 3px solid var(--brandingdark-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 20px 20px;
+}
+
+.btn:hover {
+  background: var(--branding-color);
+  color: white;
 }
