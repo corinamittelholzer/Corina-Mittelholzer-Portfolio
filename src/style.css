@@ -4,6 +4,13 @@
   --card-color: #faefd8;
 }
 
+/* Tag stylings */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 75px;
@@ -15,21 +22,24 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 25px;
 }
 
-.hero {
-  background: var(--branding-color);
-  text-align: center;
-  padding: 100px 20px;
-}
+/* General stylings */
 
-.hero p {
-  font-family: "Montserrat", sans-serif;
+.bigtext {
   font-size: 35px;
 }
+
+.bold-and-opacity {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  opacity: 0.7;
+}
+
+/* buttons */
 
 .btn-brandingdark {
   background: var(--brandingdark-color);
@@ -44,7 +54,6 @@ h3 {
 .btn-branding {
   background: white;
   color: var(--brandingdark-color);
-
   border-radius: 4px;
   border: 3px solid var(--brandingdark-color);
   font-size: 18px;
@@ -55,4 +64,14 @@ h3 {
 .btn:hover {
   background: var(--branding-color);
   color: white;
+}
+
+/* Component stylings */
+
+/* hero */
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 100px 20px;
+  margin: 0 40px 80px 40px;
 }
