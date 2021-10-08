@@ -1,7 +1,9 @@
 :root {
   --branding-color: #b3cac3;
   --brandingdark-color: #618381;
-  --card-color: #faefd8;
+  --second-color: #afaea9;
+  --seconddark-color: #868582;
+  --card-color: #f7f4ee;
 }
 
 /* Tag stylings */
@@ -36,12 +38,12 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 25px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 /* buttons */
 
-.btn-brandingdark {
+.btn-branding {
   background: var(--brandingdark-color);
   color: white;
   border-radius: 4px;
@@ -51,22 +53,38 @@ h3 {
   padding: 20px 20px;
 }
 
-.btn-branding {
-  background: white;
-  color: var(--brandingdark-color);
+.btn-branding:hover {
+  background: var(--branding-color);
+  color: white;
+}
+
+.btn-secondary {
+  color: white;
+  background: var(--seconddark-color);
   border-radius: 4px;
-  border: 3px solid var(--brandingdark-color);
+  border: 3px solid var(--seconddark-color);
   font-size: 18px;
   line-height: 27px;
   padding: 20px 20px;
 }
 
-.btn:hover {
-  background: var(--branding-color);
+.btn-secondary:hover {
+  background: var(--second-color);
   color: white;
 }
 
 /* Component stylings */
+.textcard {
+  background-color: var(--branding-color);
+  padding: 10px 20px;
+  margin: 0 40px 40px 40px;
+  border-radius: 4px;
+}
+
+.titleelement {
+  text-align: center;
+  margin: 40px;
+}
 
 /* hero */
 .hero {
