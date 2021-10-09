@@ -4,14 +4,14 @@
   --secondary-color: #cecdc8;
   --secondarydark-color: #999895;
 }
-
+/* 
 --second-color: #afaea9;
 --card-color: #cecdc8;
 
 --brandingdark-color: #618381;
 
 --card-color: #f7f4ee;
---seconddark-color: #868582;
+--seconddark-color: #868582; */
 
 /* Tag stylings */
 
@@ -54,6 +54,7 @@ p {
   font-weight: bold;
   font-size: 25px;
   opacity: 0.7;
+  margin-top: 10px;
 }
 
 .bg-branding-color {
@@ -118,6 +119,31 @@ p {
 }
 
 .screenshot {
+  border: solid 10px;
+  border-color: white;
+}
+
+.email {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.email:hover {
+  color: var(--brandingdark-color);
+  text-decoration: none;
+}
+
+.awesomelink {
+  color: black;
+}
+
+.awesomelink:hover {
+  color: var(--brandingdark-color);
+}
+
+.contactpicture {
   border: solid 10px;
   border-color: white;
 }
