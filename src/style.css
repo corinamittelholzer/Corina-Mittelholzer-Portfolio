@@ -4,14 +4,6 @@
   --secondary-color: #cecdc8;
   --secondarydark-color: #999895;
 }
-/* 
---second-color: #afaea9;
---card-color: #cecdc8;
-
---brandingdark-color: #618381;
-
---card-color: #f7f4ee;
---seconddark-color: #868582; */
 
 /* Tag stylings */
 
@@ -73,8 +65,9 @@ p {
   border-radius: 4px;
   border: 3px solid var(--brandingdark-color);
   font-size: 18px;
-  line-height: 27px;
+  line-height: 22px;
   padding: 20px 20px;
+  width: 140px;
 }
 
 .btn-branding-color:hover {
@@ -85,12 +78,12 @@ p {
 .btn-secondary-color {
   color: white;
   background: var(--secondarydark-color);
-
   border-radius: 4px;
   border: 3px solid var(--secondarydark-color);
   font-size: 18px;
-  line-height: 27px;
+  line-height: 22px;
   padding: 20px 20px;
+  width: 140px;
 }
 
 .btn-secondary-color:hover {
@@ -154,4 +147,48 @@ p {
   text-align: center;
   padding: 100px 20px;
   margin: 0 0 40px 0;
+}
+
+/* media */
+@media (max-width: 768px) {
+  .email {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 495px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .hero {
+    padding: 55px 15px;
+  }
+  .bigtext {
+    font-size: 25px;
+  }
+  .bold-and-opacity {
+    font-size: 20px;
+  }
+  .email {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 435px) {
+  h1 {
+    font-size: 42px;
+  }
 }
