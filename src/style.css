@@ -59,36 +59,35 @@ p {
 
 /* buttons */
 
-.btn-branding-color {
-  background: var(--brandingdark-color);
+.btn {
   color: white;
   border-radius: 4px;
-  border: 3px solid var(--brandingdark-color);
   font-size: 18px;
   line-height: 22px;
   padding: 20px 20px;
-  width: 140px;
+  width: 155px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn-branding-color {
+  background: var(--brandingdark-color);
+  border: 3px solid var(--brandingdark-color);
 }
 
 .btn-branding-color:hover {
   background: var(--branding-color);
-  color: white;
 }
 
 .btn-secondary-color {
-  color: white;
   background: var(--secondarydark-color);
-  border-radius: 4px;
   border: 3px solid var(--secondarydark-color);
-  font-size: 18px;
-  line-height: 22px;
-  padding: 20px 20px;
-  width: 140px;
 }
 
 .btn-secondary-color:hover {
   background: var(--secondary-color);
-  color: white;
 }
 
 /* Component stylings */
