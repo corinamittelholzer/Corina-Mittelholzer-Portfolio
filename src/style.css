@@ -15,7 +15,7 @@ body {
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 75px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -41,12 +41,17 @@ p {
   font-size: 35px;
 }
 
+.coloredline {
+  text-decoration-color: var(--brandingdark-color);
+  text-decoration-thickness: 3px;
+}
+
 .bold-and-opacity {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 25px;
   opacity: 0.7;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .bg-branding-color {
@@ -108,6 +113,7 @@ p {
 .titleelement {
   text-align: center;
   margin: 40px;
+  text-underline-position: under;
 }
 
 .screenshot {
