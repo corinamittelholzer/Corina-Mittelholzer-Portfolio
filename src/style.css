@@ -226,10 +226,12 @@ nav a:hover,
 
 @media (max-width: 575px) {
   .btn {
-    width: 100%;
     padding: 10px;
+    width: 100%;
   }
-}
+    .bold-and-opacity {
+    font-size: 19px;
+  }
 
 @media (max-width: 495px) {
   body {
@@ -247,9 +249,7 @@ nav a:hover,
   .bigtext {
     font-size: 25px;
   }
-  .bold-and-opacity {
-    font-size: 20px;
-  }
+
   .mail {
     font-size: 20px;
   }
