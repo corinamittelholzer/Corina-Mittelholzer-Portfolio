@@ -189,6 +189,16 @@ nav a:hover,
   background-color: white;
   transition: all 150ms ease-in-out;
 }
+.link{
+  color: black;
+  opacity: 0.7;
+}
+
+.link:hover {
+  color: black;
+  opacity: 1;
+  transition: all 150ms ease-in-out;
+}
 
 .picture {
   border: solid 10px;
@@ -205,9 +215,7 @@ nav a:hover,
   font-size: 16px;
 }
 
-.footer a {
-  color: var(--brandingdark-color);
-}
+
 
 /* hero */
 .hero {
