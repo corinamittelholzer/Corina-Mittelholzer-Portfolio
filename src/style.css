@@ -206,10 +206,6 @@ nav a:hover,
   border-color: white;
 }
 
-.picture.small {
-  width: 40%;
-}
-
 .footer {
   margin-top: 50px;
   text-align: center;
@@ -268,7 +264,7 @@ nav a:hover,
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .logo {
     display: none;
   }
@@ -277,7 +273,7 @@ nav a:hover,
   }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 340px) {
   nav {
     font-size: 13px;
   }
