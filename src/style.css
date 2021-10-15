@@ -10,6 +10,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -192,6 +193,16 @@ nav a:hover,
 .contactpicture {
   border: solid 10px;
   border-color: white;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer a {
+  color: var(--brandingdark-color);
 }
 
 /* hero */
