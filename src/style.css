@@ -130,6 +130,14 @@ nav a:hover,
   opacity: 0.9;
 }
 
+.logo {
+  transition: all 300ms ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+}
+
 .logo a {
   font-weight: bold;
   border: 3px solid;
